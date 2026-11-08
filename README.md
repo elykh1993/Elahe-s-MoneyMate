@@ -38,26 +38,6 @@ python -m http.server 8000
 ```
 
 سپس به `http://localhost:8000` بروید. **تنها یک پوشه حاوی همه فایل‌ها کافی است.**
-
-## مراحل انتشار رایگان
-
-### ۱. GitHub
-
-1. وارد [github.com/new](https://github.com/new) شوید و یک مخزن عمومی با نام `moneymate` ایجاد کنید. اگر مخزن خالی می‌خواهید، گزینه ساخت README را تیک نزنید.
-2. فایل ZIP دریافتی را روی رایانه **Extract / Unzip** کنید.
-3. وارد مخزن شوید و گزینه **uploading an existing file** یا **Add file → Upload files** را بزنید.
-4. **تمام فایل‌های داخل پوشه MoneyMate** را انتخاب و آپلود کنید. مهم است `index.html` در **ریشه مخزن** باشد، نه در پوشه‌ای تو در تو. خود ZIP را در مخزن آپلود نکنید.
-5. روی **Commit changes** کلیک کنید.
-
-### ۲. Vercel
-
-1. به [vercel.com/new](https://vercel.com/new) بروید و با GitHub وارد شوید.
-2. مخزن `moneymate` را در **Import Git Repository** انتخاب کنید.
-3. تنظیمات: **Framework Preset = Other**، **Root Directory = `./`**، **Build Command = خالی** (در صورت نیاز Override را روشن کنید)، **Output Directory = `.`** یا مقدار پیش‌فرض مربوط به فایل‌های ایستا.
-4. **Deploy** را بزنید. آدرس `*.vercel.app` که Vercel نمایش می‌دهد، لینک تحویل پروژه است.
-
-روش جایگزین: برای انتشار اولیه بدون اتصال GitHub، می‌توانید فایل ZIP را در [Vercel Drop](https://vercel.com/drop) قرار دهید؛ اما برای تکلیف شما **داشتن لینک GitHub هم الزامی است**.
-
 ## نحوه استفاده
 
 1. برای بررسی امکانات، روی **نمایش نمونه** کلیک کنید تا چند ماه تراکنش آزمایشی بارگذاری شود.
